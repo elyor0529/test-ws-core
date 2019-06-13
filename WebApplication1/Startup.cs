@@ -19,7 +19,11 @@ namespace WebApplication1
             {
                 options.KeepAliveInterval = TimeSpan.FromMinutes(10);
                 options.ReceiveBufferSize = 4 * 1024;
-                options.AllowedOrigins.Add("http://localhost:5000");
+                //options.AllowedOrigins.Add("http://localhost:5000");
+                //options.AllowedOrigins.Add("http://127.0.0.1:5000");
+                //options.AllowedOrigins.Add("http://0.0.0.0:5000");
+                //options.AllowedOrigins.Add("http://10.0.2.2:5000");
+                //options.AllowedOrigins.Add("http://172.16.14.114:5000");
             });
         }
 
